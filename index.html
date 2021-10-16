@@ -22,20 +22,26 @@
   </head>
   <body>
     <header>
-      <div class="container-hero-unit">
+      <div id="container-hero-unit">
         <nav class="navbar">
-          <a class="logo">
+          <a class="logo" href="#">
             <img src="./assets/logo.png" alt="tajam-logo" />
             <div>tajam</div>
           </a>
           <ul class="nav-links">
-            <li class="nav-item">HOME</li>
-            <li class="nav-item">ABOUT</li>
-            <li class="nav-item">EXPERTISE</li>
-            <li class="nav-item">TEAMS</li>
-            <li class="nav-item">WORKS</li>
-            <li class="nav-item">PEOPLE SAY</li>
-            <li class="nav-item">CONTACT</li>
+            <a href="#container-hero-unit">
+              <li class="nav-item">HOME</li></a
+            >
+            <a href="#our-story"> <li class="nav-item">ABOUT</li></a>
+            <a href="#expertise">
+              <li class="nav-item">EXPERTISE</li></a
+            >
+            <a href="#team"> <li class="nav-item">TEAMS</li></a>
+            <a href="#"> <li class="nav-item">WORKS</li></a>
+            <a href="#"> <li class="nav-item">PEOPLE SAY</li></a>
+            <a href="#feedback-clients-container">
+              <li class="nav-item">CONTACT</li></a
+            >
           </ul>
         </nav>
         <section class="hero-unit">
@@ -49,13 +55,15 @@
             vulputate cursus a sit amet mauris. Morbi accumsan ipsum
             velit.
           </p>
-          <button class="learn-more-button">LEARN MORE</button>
+          <a href="#">
+            <button class="btn-transparent">LEARN MORE</button>
+          </a>
         </section>
       </div>
     </header>
     <main>
       <section class="container">
-        <div class="our-story">
+        <div id="our-story">
           <img src="./assets/logo-big.png" alt="tajam-logo-big" />
           <div class="our-story-text">
             <h2>OUR STORY</h2>
@@ -73,7 +81,7 @@
               sociosqu ad litora torquent per conubia nostra, per
               inceptos himenaeos.
             </p>
-            <button class="learn-more-button">LEARN MORE</button>
+            <button class="btn-transparent">LEARN MORE</button>
           </div>
         </div>
       </section>
@@ -84,7 +92,7 @@
         </div>
       </section>
       <section class="container">
-        <div class="expertise">
+        <div id="expertise">
           <h2>EXPERTISE</h2>
           <p>
             Lorem ipsum dolor sit amet proin gravida nibh vel velit
@@ -146,7 +154,7 @@
           </div>
         </div>
       </section>
-      <section class="team">
+      <section id="team">
         <div class="container">
           <div>
             <h2>MEET OUR AMAZING TEAM</h2>
@@ -191,12 +199,12 @@
           </div>
           <div>
             <p>Become part of our dream team, let's join us!</p>
-            <button class="learn-more-button">WE ARE HIRING</button>
+            <button class="btn-transparent">WE ARE HIRING</button>
           </div>
         </div>
       </section>
       <section class="container">
-        <div class="feedback-clients-container">
+        <div id="feedback-clients-container">
           <div class="feedback-container">
             <h2>GIVE US GOOD NEWS</h2>
             <form action="post">
@@ -207,7 +215,7 @@
                 placeholder="Your Message"
                 rows="15"
               ></textarea>
-              <button type="submit" class="learn-more-button">
+              <button type="submit" class="btn-transparent">
                 SUBMIT
               </button>
             </form>
@@ -286,19 +294,17 @@
             <h3>OUR STUDIO</h3>
             <div class="studio-box">
               <img src="./assets/big104.png" alt="marker-icon" />
+
               <div>
-                <p>
-                  Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13,
-                  Kalideres - Jakarta Barat 11480 - Indonesia
-                </p>
+                Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13,
+                Kalideres - Jakarta Barat 11480 - Indonesia
               </div>
             </div>
             <div class="studio-box">
               <img src="./assets/phone351.png" alt="phone-icon" />
-
-              <div>
-                <p>(+62) 21-2224 3333</p>
-              </div>
+              <a href="tel:00622122243333">
+                <div>(+62) 21-2224 3333</div>
+              </a>
             </div>
           </div>
           <div class="footer-boxes">
@@ -339,9 +345,9 @@
         </div>
         <div class="legal">
           <ul class="legal-links">
-            <li>HELP</li>
-            <li>TERMS & CONDITIONS</li>
-            <li>PRIVACY</li>
+            <a href="#"> <li>HELP</li></a>
+            <a href="#"><li>TERMS & CONDITIONS</li></a>
+            <a href="#"><li>PRIVACY</li></a>
           </ul>
           <div class="copyright">
             Copyright © 2015 - Tajam Creative
